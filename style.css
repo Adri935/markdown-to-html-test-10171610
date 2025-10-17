@@ -1,0 +1,67 @@
+/* Base styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #007acc;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #e9ecef;
+  color: #6c757d;
+  margin-top: 2rem;
+}
+
+/* Markdown output styling */
+#markdown-output {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#markdown-output h1 {
+  color: #007acc;
+  border-bottom: 2px solid #e9ecef;
+  padding-bottom: 0.5rem;
+}
+
+#markdown-output pre {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+#markdown-output code {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  main {
+    margin: 1rem auto;
+    padding: 0 0.5rem;
+  }
+  
+  #markdown-output {
+    padding: 1rem;
+  }
+}
